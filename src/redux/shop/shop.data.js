@@ -1,7 +1,7 @@
-const SHOP_DATA = [
- {id: 1,
- title: 'Liver',
-routeName: 'liver',
+const SHOP_DATA = {
+ heart: {id: 1,
+ title: 'Heart',
+routeName: 'heart',
 items: [{
 id:10,
 name: "Mentha",
@@ -26,9 +26,9 @@ price: 15
      price: 10
     }
   ]},
- {id: 2,
-  title: 'Heart',
- routeName: 'heart',
+ liver: {id: 2,
+  title: 'Liver',
+ routeName: 'liver',
  items: [{
  id:14,
  name: "Chinese salvia root",
@@ -52,7 +52,7 @@ price: 15
            price: 20
       }
 ]},
-  {id: 3,
+  kidney: {id: 3,
     title: 'Kidney',
    routeName: 'kidney',
    items: [{
@@ -79,7 +79,7 @@ price: 15
         price: 10
                }
   ]},
-    {id: 4,
+    spleen: {id: 4,
       title: 'Spleen',
      routeName: 'spleen',
      items: [{
@@ -106,7 +106,7 @@ price: 15
           price: 15
             }
         ]},
-      {id: 4,
+     lung: {id: 4,
         title: 'Lung',
        routeName: 'lung',
        items: [{
@@ -132,6 +132,6 @@ price: 15
             imageUrl: "https://image.tcmwiki.com/image/zhi-shi/zhi-shi2.jpg",
             price: 10
                    }]}
-]
+                  }
 
 export default SHOP_DATA;
