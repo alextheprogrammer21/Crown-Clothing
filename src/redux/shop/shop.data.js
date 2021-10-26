@@ -1,137 +1,249 @@
 const SHOP_DATA = {
- heart: {id: 1,
- title: 'Heart',
-routeName: 'heart',
-items: [{
-id:10,
-name: "Mentha",
-imageUrl: "https://image.tcmwiki.com/image/bo-he/bo-he2.jpg",
-price: 15
-}, {
- id:11,
- name: "Chrysanthemum",
- imageUrl: "https://www.meandqi.com/media/1270/%E8%8F%8A%E8%8A%B1-tcm-shutterstock_1102707263.jpg?mode=crop&width=600&height=450&format=webp&quality=80",
- price: 20
- },
- {
-  id:12,
-  name: "Jujube seed",
-  imageUrl: "https://www.meandqi.com/media/1316/%E9%85%B8%E6%9E%A3%E4%BB%81-tcm-shutterstock_776311816.jpg?mode=crop&width=600&height=450&format=webp&quality=80",
-  price: 15
-  },
-  {
-    id:13,
-    name: "Bitter orange immature fruit",
-     imageUrl: "https://image.tcmwiki.com/image/zhi-shi/zhi-shi2.jpg",
-     price: 10
-    }
-  ]},
- liver: {id: 2,
-  title: 'Liver',
- routeName: 'liver',
- items: [{
- id:14,
- name: "Chinese salvia root",
- imageUrl: "https://www.dragonherbs.com//media/wysiwyg/major-tonic-herbs/salvia-roots-white-background.png",
- price: 10
- }, {
-  id:15,
-  name: "Jujube seed",
-  imageUrl: "https://www.meandqi.com/media/1316/%E9%85%B8%E6%9E%A3%E4%BB%81-tcm-shutterstock_776311816.jpg?mode=crop&width=600&height=450&format=webp&quality=80",
-  price: 15
-  },
-  {
-    id:16,
-    name: "Dong quai root",
-    imageUrl: "https://cdn.shopify.com/s/files/1/0058/0252/4783/articles/dong-quai-angelica-sinensis-primary_0c5642f1-2d48-45de-9871-9d37c98c1ae9.jpg?v=1556307077",
-    price: 15    },
-    {
-      id:17,
-      name: "Chrysanthemum",
-      imageUrl: "https://www.meandqi.com/media/1270/%E8%8F%8A%E8%8A%B1-tcm-shutterstock_1102707263.jpg?mode=crop&width=600&height=450&format=webp&quality=80",
-           price: 20
-      }
-]},
-  kidney: {id: 3,
-    title: 'Kidney',
-   routeName: 'kidney',
-   items: [{
-   id:18,
-   name: "Rhizoma Alismatis",
-   imageUrl: "https://image.tcmwiki.com/image/ze-xie/ze-xie3.jpg",
-   price: 10
-   }, {
-    id:19,
-    name: "Tree Peony Bark",
-    imageUrl: "https://www.herbalshop.com/wp-content/uploads/2015/01/tree_peony_root_bark.jpg",
-    price: 15
-    },
-    {
-      id:20,
-      name: "Chrysanthemum",
-      imageUrl: "https://www.meandqi.com/media/1270/%E8%8F%8A%E8%8A%B1-tcm-shutterstock_1102707263.jpg?mode=crop&width=600&height=450&format=webp&quality=80",
-      price: 20
-           },
+  hats: {
+    id: 1,
+    title: 'Hats',
+    routeName: 'hats',
+    items: [
       {
-        id:21,
-        name: "Chinese salvia root",
-        imageUrl: "https://www.dragonherbs.com//media/wysiwyg/major-tonic-herbs/salvia-roots-white-background.png",
-        price: 10
-               }
-  ]},
-    spleen: {id: 4,
-      title: 'Spleen',
-     routeName: 'spleen',
-     items: [{
-     id:22,
-     name: "Bitter orange immature fruit",
-     imageUrl: "https://image.tcmwiki.com/image/zhi-shi/zhi-shi2.jpg",
-     price: 10
-     }, {
-      id:23,
-      name: "Ginger",
-      imageUrl: "https://www.homeperch.com/wp-content/uploads/2018/12/Fresh-ginger-root-dec12.jpg",
-      price: 15
+        id: 1,
+        name: 'Brown Brim',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        price: 25
       },
       {
-        id:24,
-        name: "Chrysanthemum",
-        imageUrl: "https://www.meandqi.com/media/1270/%E8%8F%8A%E8%8A%B1-tcm-shutterstock_1102707263.jpg?mode=crop&width=600&height=450&format=webp&quality=80",
+        id: 2,
+        name: 'Blue Beanie',
+        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        price: 18
+      },
+      {
+        id: 3,
+        name: 'Brown Cowboy',
+        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        price: 35
+      },
+      {
+        id: 4,
+        name: 'Grey Brim',
+        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        price: 25
+      },
+      {
+        id: 5,
+        name: 'Green Beanie',
+        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        price: 18
+      },
+      {
+        id: 6,
+        name: 'Palm Tree Cap',
+        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+        price: 14
+      },
+      {
+        id: 7,
+        name: 'Red Beanie',
+        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
+        price: 18
+      },
+      {
+        id: 8,
+        name: 'Wolf Cap',
+        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+        price: 14
+      },
+      {
+        id: 9,
+        name: 'Blue Snapback',
+        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+        price: 16
+      }
+    ]
+  },
+  sneakers: {
+    id: 2,
+    title: 'Sneakers',
+    routeName: 'sneakers',
+    items: [
+      {
+        id: 10,
+        name: 'Adidas NMD',
+        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        price: 220
+      },
+      {
+        id: 11,
+        name: 'Adidas Yeezy',
+        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        price: 280
+      },
+      {
+        id: 12,
+        name: 'Black Converse',
+        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        price: 110
+      },
+      {
+        id: 13,
+        name: 'Nike White AirForce',
+        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        price: 160
+      },
+      {
+        id: 14,
+        name: 'Nike Red High Tops',
+        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
+        price: 160
+      },
+      {
+        id: 15,
+        name: 'Nike Brown High Tops',
+        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+        price: 160
+      },
+      {
+        id: 16,
+        name: 'Air Jordan Limited',
+        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+        price: 190
+      },
+      {
+        id: 17,
+        name: 'Timberlands',
+        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+        price: 200
+      }
+    ]
+  },
+  jackets: {
+    id: 3,
+    title: 'Jackets',
+    routeName: 'jackets',
+    items: [
+      {
+        id: 18,
+        name: 'Black Jean Shearling',
+        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        price: 125
+      },
+      {
+        id: 19,
+        name: 'Blue Jean Jacket',
+        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        price: 90
+      },
+      {
+        id: 20,
+        name: 'Grey Jean Jacket',
+        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        price: 90
+      },
+      {
+        id: 21,
+        name: 'Brown Shearling',
+        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        price: 165
+      },
+      {
+        id: 22,
+        name: 'Tan Trench',
+        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+        price: 185
+      }
+    ]
+  },
+  womens: {
+    id: 4,
+    title: 'Womens',
+    routeName: 'womens',
+    items: [
+      {
+        id: 23,
+        name: 'Blue Tanktop',
+        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        price: 25
+      },
+      {
+        id: 24,
+        name: 'Floral Blouse',
+        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
         price: 20
-               },
-        {
-          id:25,
-          name: "Dong quai root",
-          imageUrl: "https://cdn.shopify.com/s/files/1/0058/0252/4783/articles/dong-quai-angelica-sinensis-primary_0c5642f1-2d48-45de-9871-9d37c98c1ae9.jpg?v=1556307077",
-          price: 15
-            }
-        ]},
-     lung: {id: 4,
-        title: 'Lung',
-       routeName: 'lung',
-       items: [{
-       id:26,
-       name: "White mulberry root bark",
-       imageUrl: "https://www.euyansang.com/on/demandware.static/-/Sites-EYSI_International-Library/default/dwcf70bee6/images/herb/294x350-eysi-herbology-WhiteMulberryRoot-Bark.jpg",
-       price: 10
-       }, {
-        id:27,
-        name: "Dong quai root",
-        imageUrl: "https://cdn.shopify.com/s/files/1/0058/0252/4783/articles/dong-quai-angelica-sinensis-primary_0c5642f1-2d48-45de-9871-9d37c98c1ae9.jpg?v=1556307077",
-        price: 15
-        },
-        {
-          id:28,
-          name: "Mentha",
-          imageUrl: "https://image.tcmwiki.com/image/bo-he/bo-he2.jpg",
-          price: 15
-                    },
-          {
-            id:29,
-            name: "Bitter orange immature fruit",
-            imageUrl: "https://image.tcmwiki.com/image/zhi-shi/zhi-shi2.jpg",
-            price: 10
-                   }]}
-                  }
+      },
+      {
+        id: 25,
+        name: 'Floral Dress',
+        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        price: 80
+      },
+      {
+        id: 26,
+        name: 'Red Dots Dress',
+        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        price: 80
+      },
+      {
+        id: 27,
+        name: 'Striped Sweater',
+        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        price: 45
+      },
+      {
+        id: 28,
+        name: 'Yellow Track Suit',
+        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        price: 135
+      },
+      {
+        id: 29,
+        name: 'White Blouse',
+        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        price: 20
+      }
+    ]
+  },
+  mens: {
+    id: 5,
+    title: 'Mens',
+    routeName: 'mens',
+    items: [
+      {
+        id: 30,
+        name: 'Camo Down Vest',
+        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        price: 325
+      },
+      {
+        id: 31,
+        name: 'Floral T-shirt',
+        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        price: 20
+      },
+      {
+        id: 32,
+        name: 'Black & White Longsleeve',
+        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        price: 25
+      },
+      {
+        id: 33,
+        name: 'Pink T-shirt',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 25
+      },
+      {
+        id: 34,
+        name: 'Jean Long Sleeve',
+        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+        price: 40
+      },
+      {
+        id: 35,
+        name: 'Burgundy T-shirt',
+        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        price: 25
+      }
+    ]
+  }
+};
 
 export default SHOP_DATA;
