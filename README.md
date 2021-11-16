@@ -6,6 +6,16 @@ An e-commerce store built with React, Redux, Firebase. The deployed app can be f
 **Main Page**
 !["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
 
+**Main Page**
+!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
+
+**Main Page**
+!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
+
+**Main Page**
+!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
+
+
 ## Getting started
 
 1. Install dependencies: `npm i`
