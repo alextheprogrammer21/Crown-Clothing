@@ -4,17 +4,13 @@ An e-commerce store built with React, Redux, Firebase. The deployed app can be f
 ## Images 
 
 **Main Page**
-!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
+!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/Crown-Clothing/master/public/Screen%20Shot%202021-11-16%20at%2010.01.53%20AM.png)
 
-**Main Page**
-!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
+**Available Items**
+!["Screenshot of the available items"](https://raw.githubusercontent.com/alextheprogrammer21/Crown-Clothing/master/public/Screen%20Shot%202021-11-16%20at%2010.02.40%20AM.png)
 
-**Main Page**
-!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
-
-**Main Page**
-!["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/personal-website/master/public/images/shin-herb/1.png)
-
+**Checkout Cart**
+!["Screenshot of the checkout cart"](https://raw.githubusercontent.com/alextheprogrammer21/Crown-Clothing/master/public/Screen%20Shot%202021-11-16%20at%2010.03.09%20AM.png)
 
 ## Getting started
 
