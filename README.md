@@ -1,5 +1,5 @@
 ### Crown Clothing 
-An e-commerce store built with React, Redux, Firebase. The deployed app can be found at: https://shrouded-island-80092.herokuapp.com/. (Please give it a minute to load as it is using heroku for deployment).
+An e-commerce store built with React, Redux, Firebase. The deployed app can be found at: https://crwned-live.herokuapp.com/. (Please give it a minute to load as it is using heroku for deployment).
 
 ## Images 
 
