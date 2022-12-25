@@ -1,7 +1,8 @@
-### Crown Clothing 
-An e-commerce store built with React, Redux, Firebase. The deployed app can be found at: https://crwned-live.herokuapp.com/. (Please give it a minute to load as it is using heroku for deployment).
+### Crown Clothing
 
-## Images 
+An e-commerce store built with React, Redux, Firebase. The deployed app can be found at: https://63a8d4774f8b8b1e3e9e04ea--incredible-panda-aa8de2.netlify.app/. (Please give it a minute to load as it is using heroku for deployment).
+
+## Images
 
 **Main Page**
 !["Screenshot of the main page"](https://raw.githubusercontent.com/alextheprogrammer21/Crown-Clothing/master/public/Screen%20Shot%202021-11-16%20at%2010.01.53%20AM.png)
